@@ -1,0 +1,27 @@
+*{
+    margin: 20px;
+}
+button {
+    display: block;
+    margin: 10px;
+}
+.search {
+    background-color: #f4f8f8;
+    color: #119B9D;
+    border-color: #119B9D ;
+    border-radius: 50px;
+    padding: 5px 3em;
+}
+.plus {
+    background-color: #00D1B2;
+    color: white;
+    border-radius: 50%;
+    border-color: #00D1B2;
+    font-size: 20px;
+}
+.account{
+    background-color: #2B78E4;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 1px black;
+}
