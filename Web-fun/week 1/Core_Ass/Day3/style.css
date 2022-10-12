@@ -1,0 +1,33 @@
+*{
+    background-color: #E5FAFF;
+    margin: 0px;
+}
+.container {
+    padding: 10px
+}
+img {
+    height: 200px;
+}
+.box1, .box2, .box3 {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+.box1{
+    background-color: rgb(84, 192, 238);
+    justify-content: space-between;
+    padding: 20px;
+}
+.box2{
+    justify-content: space-around;
+    background-color:#D4B0CF ;
+    padding: 20px;
+}
+.box3{
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+h1, p{
+    text-align: center;
+}
