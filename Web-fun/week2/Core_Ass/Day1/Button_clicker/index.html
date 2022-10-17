@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="flex al-it-center space-between">
+            
+            <h2>Dojonary</h2>
+            <input class="search" type="text" placeholder="Search">
+            <button onclick="logout(this)" class="btn">Login</button>
+        </nav>
+        <div class="box one">
+            <h1>ninja</h1>
+            <div class="under flex space-between ">
+                <div class="left">
+                    <h3 class="noun"><em>noun</em></h3>
+                    <h3>Plural:<em>ninjas</em></h3>
+                    <button class="like" onclick="alert('ninja was liked')" >13 likes</button>                
+                </div>
+                <div class="right flex just-cont-center">
+                    <h3 class="def">Apractitioner skilled in the <br><a href="">Japanese</a>art of <a href="">ninjutsu</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="box two">
+            <h1>ninja</h1>
+            <div class="under flex space-between">
+                <div class="left">
+                    <h3 class="noun"><em>noun</em></h3>
+                    <h3>Plural:<em>ninjas</em></h3>
+                    <button class="like"  onclick="alert('ninja was liked')"  >37 likes</button>                
+                </div>
+                <div class="right flex just-cont-center">
+                    <h3 class="def">A <a href="">programmer</a> who breaks <br> down problems with <a href="">zen</a>-like<br> focus</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box three ">
+            <p>Dojonary is <br>defined by <span>You</span></p>
+            <button class="add"  onclick="hide(this)">Add definition</button>
+        </div>
+
+
+
+
+
+    </div>    
+
+    <script src="./script.js"></script>
+</body>
+</html>
