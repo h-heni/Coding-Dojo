@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- the header -->
+    <header>
+        <ul class="header flex between al-it-center">
+            <li><img class="green" src="images/leaf.png" alt="logo-leaf"></li>
+            <li><h1>EasyBay</h1></li>
+            <li><input type="text" placeholder="         Search for anything"  src="./images/search-dark.png"> </li>
+            <li>Sign In</li>
+            <li><img onclick="alert('Your cart is empty')" class="header-img" src="images/cart-dark.png" alt="cart"></li>
+        </ul>
+    </header>
+    <!-- the nav -->
+    <nav>
+        <ul class="navig flex between">
+            <li>Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agave</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+    </nav>
+    <!-- the big title -->
+    <p class="title-text">Your Source for Serious Succulent Specialties</p>
+
+    <!-- the container of 3 boxes-->
+    <div class="container flex">
+        <!-- left one -->
+        <div class="left-box flex col al-it-center">
+            <p>Discover succ-<br> ulent varieties <br>one pot or rock <br>  at a time !</p>
+            <div class="flex al-it-center">
+                
+                <p>Discover </p>
+                <img src="./images/arrow-light.png" alt="arrow-light">
+            </div>
+        </div>
+        <!-- center -->
+        <div class="img-box">
+            <img onmouseover="change(this)" onmouseout="back(this) "  src="./images/succulents-1.jpg" alt="Succulent">
+        </div>
+        <!-- the right one -->
+        <div class="right-box flex col">
+            <div class="top">
+                <img src="./images/aloe-m.jpg" alt="aloe">
+            </div>
+            <div class="bottom flex al-it-center">
+                <p>Soothing Aloe</p>
+                <img src="./images/arrow-light.png" alt="arrow-light">
+            </div>
+        </div>
+    </div>
+
+    <!-- the bottom container -->
+    <div class="bottom-con">
+        <ul class="photo flex center">
+            <li class="photo-list flex col al-it-center"><img src="images/aeonium-s.jpg" alt="aeonium"><p>Aeonium</p></li>
+            <li class="photo-list flex col al-it-center"><img src="images/aloe-s.jpg" alt="aloe"><p>Aloe</p></li>
+            <li class="photo-list flex col al-it-center"><img src="images/cactus-s.jpg" alt="cactus"><p>Cactus</p></li>
+            <li class="photo-list flex col al-it-center"><img src="images/echeveria-s.jpg" alt="echeveria"><p>Echeveria</p></li>
+            <li class="photo-list flex col al-it-center"><img src="images/sedum-s.jpg" alt="sedum"><p>Sedium</p></li>
+            <li class="photo-list flex col al-it-center"><img src="images/sempervivum-s.jpg" alt="sempervivum"><p>Sempervivum</p></li>
+
+        </ul>
+
+    </div>
+
+    <!-- the POP UP -->
+    <div class="pop-up flex around">
+        <img src="./images/alert-dark.png" alt="alert">
+        <p>This site makes of third-party cookies, by clicking "I accept" you agree to the <br>terms outlined in our <a href="">cookie policy</a></p>
+        <button onclick="del()" >I accept</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

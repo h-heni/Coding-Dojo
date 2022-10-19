@@ -1,0 +1,168 @@
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* The library */
+
+.flex {
+    display: flex;
+}
+
+.just-cont-center {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+
+.al-it-center {
+    align-items: center;
+}
+.col {
+    flex-direction: column;
+}
+
+/* the whole page in center */
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* the header */
+header{
+    margin: 10px 0px;
+}
+li {
+    list-style-type: none;
+}
+
+.header-img {
+    height: 30px;
+}
+.green {
+    background-color: rgb(0, 209, 178, 1);
+    border-radius: 10px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+
+input {
+    width: 800px;
+    border-radius: 10px;
+    height: 25px;
+}
+/* the nav */
+.navig {
+    border-bottom: 4px solid black;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+/*the big title  */
+.title-text {
+    font-size: 50px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+/* the container of 3 boxes */
+.container {
+    height: 350px;
+}
+    /* left */
+.left-box {
+    background-color: rgb(0, 209, 178, 1);
+    color: white;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+.left-box p {
+    font-size: 25px;
+}
+.left-box img, .bottom img {
+    height: 30px;
+}
+
+
+    /* center */
+.img-box {
+    flex: 1;
+}
+
+.img-box img{
+    width: 400px;
+    height: 350px;
+}
+    /* right */
+.right-box{
+    flex:1;
+    margin-left:60px;
+    color: white;
+    justify-content: space-between;
+}
+.top img {
+    width: 400px;
+    height: 230px;
+}
+
+.bottom {
+    background-color:rgb(0, 209, 178, 1) ;
+    padding: 20px 50px;
+}
+.bottom p {
+    font-size: 25px;
+}
+
+/* the bottom container */
+.bottom-con {
+    background-color:rgb(170, 233, 216) ;
+    padding: 50px 0px ;
+    margin-top: 20px;
+}
+.photo {
+    justify-content: space-evenly;
+}
+.photo-list {
+    gap: 25px;
+}
+.photo-list img{
+    height: 160px;
+    border-radius: 50%;
+
+}
+
+/* the POP UP */
+.pop-up{
+    padding: 20px;
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black ;
+    position: absolute;
+    bottom: 5px;
+}
+.pop-up p {
+    font-size: 20px;
+
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color:rgb(0, 209, 178, 1) ;
+    box-shadow: 5px 5px 3px black;
+    color: white;
+    font-weight: 600;
+}
