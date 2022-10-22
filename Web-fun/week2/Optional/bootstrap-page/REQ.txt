@@ -1,0 +1,2 @@
+*_ All texts (except for the company logo) should be broken down to HTML/Boostrap.
+*- Buy Now should be a button or link but not an image.
