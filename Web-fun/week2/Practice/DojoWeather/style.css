@@ -1,0 +1,32 @@
+.red {
+    color: red;
+    font-weight: 700;
+}
+.blue {
+    color: blue;
+    font-weight: 700;
+
+}
+.card-text, .card-title {
+    text-align: center;
+}
+
+.card{
+    margin: 2rem 0;
+    padding: 1rem;
+}
+.card-title, .text, .num, .card-body, .card-text{
+    margin: 1.5rem 0;
+}
+.header{
+    border-bottom:3px solid black ;
+}
+.card-text {
+    font-weight: 700;
+}
+.pop {
+    border: 2px solid black;
+    position: relative;
+    bottom: 40px;
+    background-color: white;
+}

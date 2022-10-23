@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<!--the navbar  -->
+    <nav class="navbar text-white" style="background-color: #9fc4f8;">
+        <div class="container">
+            <h1>DojoWeather</h1>
+            <div class="right d-flex justify-content-around w-50">
+                <h3 onclick="alert('Loading weather report...')">Burbank</h3>
+                <h3 onclick="alert('Loading weather report...')">Chicago</h3>
+                <h3 onclick="alert('Loading weather report...')">Dallas</h3>
+            </div>
+        </div>   
+    </nav>
+    
+    <div class="container">
+<!-- the header -->
+    <div class="header d-flex justify-content-between mt-4 py-3">
+        <h2>San Jose</h2>
+        <div class="temp">
+            <label>show temperature</label>
+            <select onchange="convert(this)">
+                <option>°C</option>
+                <option >°F</option>
+            </select>
+
+        </div>
+    </div>
+    
+<!-- Cards -->
+    <div class="row row-cols-1 row-cols-md-4">
+        <div class="col">
+            <div class="card"  style="background-color: #eeeeee;">
+                <h5 class="card-title">Today</h5>
+                <div class="text-center text">
+                    <img src="./assets/some_rain.png" class="card-img-top w-75 rounded-circle" alt="some_rain">
+
+                </div>
+
+                <div class="card-body">
+                    <p class="card-text ">some rain</p>
+                    <div class="d-flex justify-content-around num">
+                        
+                        <p class="red0">24</p>
+                        <p class="blue0">18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="background-color: #eeeeee;">
+                <h5 class="card-title">Tomorrow</h5>
+                <div class="text-center text">
+
+                    <img src="./assets/some_sun.png" class="card-img-top w-75 rounded-circle" alt="sun">
+                </div>
+
+                <div class="card-body">
+                    <p class="card-text">some rain</p>
+                    <div class="d-flex justify-content-around num">
+
+                        <p class="red1">27</p>
+                        <p class="blue1">19</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="background-color: #eeeeee;">
+                <h5 class="card-title">Friday</h5>
+                <div class="text-center text">
+
+                    <img src="./assets/some_clouds.png" class="card-img-top w-75 rounded-circle" alt="cloud">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">some clouds</p>
+                    <div class="d-flex justify-content-around num">
+
+                        <p class="red2">21</p>
+                        <p class="blue2">16</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card box"  style="background-color: #eeeeee;">
+                <h5 class="card-title">Saturday</h5>
+                <div class="text-center text">
+
+                    <img src="./assets/some_sun.png" class="card-img-top w-75 rounded-circle" alt="sun">
+                </div>
+
+                <div class="card-body">
+                    <p class="card-text">some rain</p>
+                    <div class="d-flex justify-content-around num">
+                        <p class="red3">26</p>
+                        <p class="blue3">21</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- POP-UP -->
+    <div class="pop px-3 d-flex justify-content-between align-items-center">
+        <img src="./assets/cookie.png" alt="cookie">
+        <div class="text w-75">
+            <h3>Stop! cookie time</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est sed repellendus ullam dignissimos dicta alias harum provident nam velit exercitationem autem tempora porro assumenda, fugiat iure maxime. Pariatur, dolores? <a href="">Read more</a></p>
+        </div>
+        <button onclick="del()" type="button" class="btn text-black" style="background-color: #9fc4f8; font-weight: 600;">I accept</button>
+
+    </div>
+
+
+    </div>
+    <script src="./jscript.js"></script>
+</body>
+</html>
